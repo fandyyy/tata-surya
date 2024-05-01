@@ -467,3 +467,10 @@
 </body>
 <script src="html5/lib/scripts/bootstrapper.min.js"></script>
 </html>
+
+<script src="https://storage.googleapis.com/workbox-cdn/releases/6.5.2/workbox-sw.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
